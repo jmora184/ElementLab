@@ -194,61 +194,66 @@ class MainPage extends React.Component {
 			</div>
 			
 		</section>
-				<section id="purchase" className="discount_section bg-grey bd-bottom padding">
-					<div className="container">
-						<div className="col-sm-6 xs-padding">
-							<div className="discount_content wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="2000ms">
-								<h2>Innovation Spotlight: The Rise of Vapes and Pre-Rolls</h2>
-								
-								<table style={{ color: 'darkgreen', fontSize: '1rem', margin: '1rem 0', borderCollapse: 'collapse', minWidth: '320px', maxWidth: '100%', background: '#f8f8f8', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-  <tbody>
-    <tr>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>3M+</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>Vapes s</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>37% Premium Products</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>West Coast alone</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>MAX THC Premium Products</td>
-    </tr>
-  </tbody>
-</table>
-<h2>Fusion Forward  </h2>
-								<table style={{ color: 'darkgreen', fontSize: '1rem', margin: '1rem 0', borderCollapse: 'collapse', minWidth: '320px', maxWidth: '100%', background: '#f8f8f8', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-  <tbody>
-    <tr>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>Flavors: Peach Uprise</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>watermelon</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>Strawberry Luxe</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>Blueberry</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>Pineapple</td>
-    </tr>
-  </tbody>
-</table>
-<h2>Genetics: Classics strains</h2>
-								<table style={{ color: 'darkgreen', fontSize: '1rem', margin: '1rem 0', borderCollapse: 'collapse', minWidth: '320px', maxWidth: '100%', background: '#f8f8f8', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-  <tbody>
-    <tr>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>OG Kush</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>Jack Herer</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>Sky Walker OG</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>Blue Dream</td>
-      <td style={{ padding: '8px 16px', fontWeight: 600 }}>Blue Dream</td>
-    </tr>
-  </tbody>
-</table>
-<br></br>
-<a target="_blank" rel="noopener noreferrer" href="https://www.kickstarter.com/projects/jsm88/the-turtle-cutter-a-new-kind-of-cigar-cutter" className="default_btn">Contact Us</a>
-
-							</div>
-						</div>
-						<div className="col-sm-6 xs-padding">
-							<div className="discount_moc wow fadeInRight" data-wow-delay="400ms" data-wow-duration="2000ms">
-								<img src="https://res.cloudinary.com/logic-pill/image/upload/v1768152953/explosion_cww8t0.jpg" alt="Feature Mockup"></img></div>
-						</div>
-						<br></br><br></br>
-
-					</div>
-											              
-				</section>
+							 <section id="purchase" className="discount_section bg-grey bd-bottom padding">
+								 <div className="container">
+									 <div className="row align-items-center">
+										 <div className="col-md-6 col-sm-12 xs-padding">
+											 <div className="discount_content wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="2000ms">
+												 <h2>Innovation Spotlight: The Rise of Vapes and Pre-Rolls</h2>
+												 <table style={{ color: 'darkgreen', fontSize: '1rem', margin: '1rem 0', borderCollapse: 'collapse', minWidth: '320px', maxWidth: '100%', background: '#f8f8f8', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+													 <tbody>
+														 <tr>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>3M+</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>Vapes s</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>37% Premium Products</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>West Coast alone</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>MAX THC Premium Products</td>
+														 </tr>
+													 </tbody>
+												 </table>
+												 <h2>Fusion Forward</h2>
+												 <table style={{ color: 'darkgreen', fontSize: '1rem', margin: '1rem 0', borderCollapse: 'collapse', minWidth: '320px', maxWidth: '100%', background: '#f8f8f8', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+													 <tbody>
+														 <tr>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>Flavors: Peach Uprise</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>watermelon</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>Strawberry Luxe</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>Blueberry</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>Pineapple</td>
+														 </tr>
+													 </tbody>
+												 </table>
+												 <h2>Genetics: Classics strains</h2>
+												 <table style={{ color: 'darkgreen', fontSize: '1rem', margin: '1rem 0', borderCollapse: 'collapse', minWidth: '320px', maxWidth: '100%', background: '#f8f8f8', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+													 <tbody>
+														 <tr>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>OG Kush</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>Jack Herer</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>Sky Walker OG</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>Blue Dream</td>
+															 <td style={{ padding: '8px 16px', fontWeight: 600 }}>Blue Dream</td>
+														 </tr>
+													 </tbody>
+												 </table>
+												 <br />
+												 <a target="_blank" rel="noopener noreferrer" href="https://www.kickstarter.com/projects/jsm88/the-turtle-cutter-a-new-kind-of-cigar-cutter" className="default_btn">Contact Us</a>
+											 </div>
+										 </div>
+										 <br></br>
+										 <br></br>
+										 <br></br>
+										 <br></br>
+										 <br></br>
+										 <br></br>
+										 <br></br>
+										 <div className="col-md-6 col-sm-12 xs-padding d-flex justify-content-center align-items-center">
+											 <div className="discount_moc wow fadeInRight" data-wow-delay="400ms" data-wow-duration="2000ms" style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+												 <img src="https://res.cloudinary.com/logic-pill/image/upload/v1768152953/explosion_cww8t0.jpg" alt="Feature Mockup" style={{ maxWidth: '100%', height: 'auto', borderRadius: '12px', boxShadow: '0 2px 12px rgba(0,0,0,0.08)' }} />
+											 </div>
+										 </div>
+									 </div>
+								 </div>
+							 </section>
 
 			
 
