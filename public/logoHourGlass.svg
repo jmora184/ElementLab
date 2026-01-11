@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 512 512">
-  <defs>
-    <style>
-      .navy { stroke: #0B3A63; }
-      .green { fill: #77B255; }
-    </style>
-  </defs>
-
-  <!-- Outer hexagon -->
-  <polygon points="247.4,456.0 56.0,347.4 59.4,154.3 237.0,56.0 419.8,149.1 425.0,357.7"
-           fill="none" class="navy" stroke-width="18"
-           stroke-linejoin="round"/>
-
-  <!-- Inner triangle outline -->
-  <path d="M 277.4 196.0 L 343.8 368.0 L 137.2 368.0 Z"
-        fill="none" class="navy" stroke-width="16" stroke-linejoin="round"/>
-
-  <!-- Base bar -->
-  <path d="M 129.8 384.0 L 351.2 384.0"
-        fill="none" class="navy" stroke-width="16" stroke-linecap="round"/>
-
-  <!-- Green wedge -->
-  <polygon points="161.2,307.7 135.3,302.6 225.0,161.2 228.4,85.3 256.0,85.3 256.0,157.7" class="green" opacity="0.95"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 221" width="236" height="221">
+  <path fill="#123763" d="M 235.00 68.00 L 118.00 0.00 L 0.00 68.00 L 0.00 157.00 L 26.00 157.00 L 26.00 83.00 L 118.00 30.00 L 209.00 83.00 L 209.00 157.00 L 235.00 157.00 Z" />
+  <path fill="#78B054" d="M 118.00 56.00 L 48.00 96.00 L 48.00 181.00 L 116.00 220.00 L 117.00 186.00 L 77.00 162.00 L 77.00 114.00 L 117.00 90.00 L 157.00 114.00 L 157.00 126.00 L 100.00 127.00 L 100.00 157.00 L 187.00 157.00 L 187.00 96.00 Z" />
 </svg>
