@@ -12,7 +12,7 @@ import "../../css/responsive.css";
 import { Helmet } from "react-helmet";
 import darkLogo from "../../img/logo-dark.png";
 import jaredProfile from "../../img/jeremiahProfile.avif";
-import marlaProfile from "../../img/sister.jpg";
+import marlaProfile from "../../img/liz.jpg";
 import partner from '../../img/partner.jpg';
 import "./story.css";	
 import { withRouter } from 'react-router-dom';
@@ -47,12 +47,12 @@ class Story extends React.Component {
 	render() {
 const team = [
   {
-    name: "Marla Mora",
+    name: "Elizabeth Bordtvedt",
     title: "CEO & Founder",
     img: marlaProfile
   },
     {
-    name: "Partner",
+    name: "Amesh Rihad",
     title: "Co-founder",
     img: partner
   },
