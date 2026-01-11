@@ -124,7 +124,7 @@ class MainPage extends React.Component {
 		<br></br>
 		<br></br>
 							 <img 
-								 src="https://res.cloudinary.com/logic-pill/image/upload/v1768150891/heropage_yc2hs1.png" 
+								 src="https://res.cloudinary.com/logic-pill/image/upload/v1768161137/heropage_newlogo_rcjiyu.png" 
 								 alt="Stock" 
 								 width="100%" 
 								 className="animated bounceIn"
@@ -136,7 +136,7 @@ class MainPage extends React.Component {
 		<ul className="why_item">
 			<li className="col-md-4 col-xs-6">
 				<div className="why_list wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="2000ms">
-					<img src="https://res.cloudinary.com/logic-pill/image/upload/v1768152692/allusa_ofmtkh.jpg" alt="Stock" width="100%" ></img>
+					<img src="https://res.cloudinary.com/logic-pill/image/upload/v1768161137/allusa_newlogo_yidwx2.png" alt="Stock" width="100%" ></img>
 					<h3>Designed for cannabis brands at scale</h3>
 					<p>State transforming into vapes and pre-rolls.</p>
 				</div>

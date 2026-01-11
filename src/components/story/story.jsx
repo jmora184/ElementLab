@@ -13,6 +13,7 @@ import { Helmet } from "react-helmet";
 import darkLogo from "../../img/logo-dark.png";
 import jaredProfile from "../../img/jeremiahProfile.avif";
 import marlaProfile from "../../img/liz.jpg";
+import logo from "../../img/elementlab_icon_recolored.png";
 import partner from '../../img/partner.jpg';
 import "./story.css";	
 import { withRouter } from 'react-router-dom';
@@ -80,7 +81,12 @@ const team = [
 	<br></br>
 	<br></br>
 	<br></br>
+  
       <h2>Meet Our Team</h2>
+      <div style={{ width: '100%', display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+        <img src={logo} alt="Team" style={{ maxWidth: '120px', width: '100%', borderRadius: '18px', boxShadow: '0 2px 12px rgba(0,0,0,0.10)' }} />
+        <br></br>
+      </div>
       <div style={{
         display: "flex",
         flexWrap: "wrap",
