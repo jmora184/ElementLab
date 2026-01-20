@@ -11,6 +11,16 @@ import "../../css/main.css";
 import "../../css/responsive.css";
 import { Helmet } from "react-helmet";
 import darkLogo from "../../img/logo-dark.png";
+import page1 from "../../img/page-1.png";
+import page2 from "../../img/page-2.png";
+import page3 from "../../img/page-3.png";
+import page4 from "../../img/page-4.png";
+import page5 from "../../img/page-5.png";
+import page6 from "../../img/page-6.png";
+import page7 from "../../img/page-7.png";
+import page8 from "../../img/page-8.png";
+import page9 from "../../img/page-9.png";
+import page10 from "../../img/page-10.png";
 import clueCap from "../../img/newCClogo.png";
 import product1 from "../../img/product-1.png";
 import small from "../../img/small.png";
@@ -123,9 +133,23 @@ class MainPage extends React.Component {
 				<br></br>
 
 				<section>
-				{/* Card Picture Carousel */}
-				<CardCarousel />
-
+				{/* Card Picture Carousel - Desktop Only */}
+				<BrowserView>
+					<CardCarousel />
+				</BrowserView>
+				{/* Mobile View Section */}
+				   <MobileView>
+					   <div className="mobile-section" style={{ padding: '20px', textAlign: 'center' }}>
+						   {[page1, page2, page3, page4, page5, page6, page7, page8, page9, page10].map((img, idx) => (
+							   <img
+								   key={idx}
+								   src={img}
+								   alt={`page-${idx + 1}`}
+								   style={{ maxWidth: '90%', margin: '10px 0', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)' }}
+							   />
+						   ))}
+					   </div>
+				   </MobileView>
 				</section>
 
 				
